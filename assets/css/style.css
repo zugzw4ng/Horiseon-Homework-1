@@ -1,31 +1,32 @@
+/* Universal Selector applies to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color for the page's body */
 body {
     background-color: #d9dcd6;
 }
 
-/* Replaced <div> with semantic HTML <header> */
+/*styles header elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* removed redundancy */
+/* size and display of h1 text */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Replaced seo class with specific ID for clarity */
+/* highlights SEO in company name heading */
 #greytext {
     color: #d9dcd6;
 }
 
-/* Replaced <div> with semantic HTML <nav> */
+/* location and visibility of navigation elements */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,21 +34,21 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* removed redundancy */
+/* list format/style (no dots or numbers) */
 ul {
     list-style-type: none;
 }
-/* removed redundancy */
+/* styles list elements */
 li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* styles link text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets font size for all paragraph elements */
 p {
     font-size: 16px;
 }
@@ -60,7 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* attempted to replace with section/article/main to no avail sorry */
+/* sets the display of the content class within <main< */
 .content {
     width: 75%;
     display: inline-block;
